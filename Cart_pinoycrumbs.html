@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="cart_pinoycrumbs.css">
+    <title>Pinoy Crumbs</title>
+
+</head>
+
+<body style="background-color: #F7E7CF;">
+     
+  <div id="rectangle">
+  <span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span>
+ </div>
+   
+   <nav id="navi">
+
+     <div class="pinoycrumbs">
+      <img class="logo" src="https://github.com/AldrinGa/PinoyCrumbs_images/blob/main/pinoy%20crumbslogo.png?raw=true" alt="logo-here" width="200" height="150">
+     </div>
+
+    
+     <input type="checkbox" id="menu-toggle" style="display: none;" >
+     <label for="menu-toggle" class="menu-label">☰</label>
+
+      
+     <div class="pages">
+      <ul class="navmenu">
+        <li><a href="index.html"><b>Home</b></a></li>
+        <li><a href="AboutUs_pinoycrumbs.html"><b>About Us</b></a></li>
+        <li><a href="Products_pinoycrumbs.html"><b>Products</b></a></li>
+        <li><a href="Favorite_pinoycrumbs.html"><b>Favorites</b></a></li>
+        <li><a href="FAQs_pinoycrumbs.html"><b>FAQs</b></a></li>
+        <li><a href="ContactUs_pinoycrumbs.html"><b>Contact Us</b></a></li>
+       </ul>
+     </div>
+
+     <div class="navbtn">
+       <button class="profile-button" onclick="location.href='Login_pinoycrumbs.html'"><img class="search-icon" src="https://github.com/AldrinGa/PinoyCrumbs_images/blob/main/user.png?raw=true" width="20px"></button>
+       <button class="bag-button" onclick="location.href='Cart_pinoycrumbs.html'"><img class="search-icon" src="https://github.com/AldrinGa/PinoyCrumbs_images/blob/main/shopping-bag.png?raw=true" width="20px"></button>
+     </div>
+
+    </nav>
+
+
+<div class="mainbox">
+
+ <div class="carted">
+   <div class="info">
+       <div class="info-item"><p>Item</p></div>
+   <div class="info-others">
+     <p>Price</p>
+     <p>Quantity</p>
+     <p>Total</p>
+   </div>
+
+   </div> 
+
+   
+    <div class="cart-list" id="item-box"><hr></div> 
+ </div> 
+
+
+ <div class="summary">
+    
+    <center><h2>Order Summary</h2></center><hr>
+    <div class="summary-details">
+    <div><span>Subtotal:</span> <span id="subtotal">₱0</span></div>
+    <div><span>Shipping:</span> <span id="shipping">50</span></div><hr class="totalline">
+    <div><span><strong>Total:</strong></span> <span><strong id="toTal">0</strong></span></div>
+    </div>
+    <br>
+
+    <form>
+    <div class="summary-form">
+    
+    <span>Full Name</span>
+    <input type="text" id="customer" required placeholder="Name">
+    <span>Contact No.</span>
+    <input type="text" id="contactno" required placeholder="09XXXXXXXXX">
+    <span>Address</span>
+    <input type="text" id="addr" required placeholder="House no., Street, Barangay, City">
+    <span>Enter payment</span>
+    <input type="number" id="pay" required placeholder="₱00.00">
+
+    <span>Payment method</span>
+    <select>
+      <option>Cash on Delivery</option>
+      <option>Gcash</option>
+      <option>Maya</option>
+      <option>PayPal</option>
+      <option>BDO</option>
+      <option>BPI</option>
+    </select>
+    
+    </div>
+    <center><button type="submit" class="checkout-btn" onclick="showReceipt(event)">Checkout</button></center>
+    </form>
+    </div>
+
+    
+
+ </div> 
+</div> 
+
+<br><br><br><br>
+
+<div class="receiptcont">
+
+<div class="Receipt-box" id="receiptbox">
+  <img src="https://github.com/AldrinGa/PinoyCrumbs_images/blob/main/pinoy%20crumbslogo.png?raw=true">
+  <h1>RECEIPT</h1><br>
+
+  <div class="receipt-det">
+  <span><b>Date : </b><span id="rec-date"></span></span><br>
+  <span><b>Customer : </b><span id="rec-name"></span></span><br>
+  <span><b>Contact No. : </b><span id="rec-no"></span></span><br>
+  <span><b>Address : </b><span id="rec-addr"></span></span><br><br>
+  </div>
+
+  <div id="receipt-items"></div><br>
+  <div id="receipt-total" class="receipt-total"></div>
+  <p id="reference-id"></p>
+  <p id="rec-paymet"></p>
+  <button onclick="window.print()">Print Receipt</button>
+  <a href="Cart_pinoycrumbs.html" onclick="resetCart()">Back to Cart</a>
+  
+</div>
+
+</div>
+
+
+
+
+
+<footer id="foot">
+ 
+ 
+    <div class="container">
+
+
+      <div>
+        <img class="logo2" src="https://github.com/AldrinGa/PinoyCrumbs_images/blob/main/pinoy%20crumbslogo.png?raw=true" alt="logo-here">
+      </div>
+
+    <div class="ftrlnk-container">
+      <div class="footer-content" >
+        <h3>Products</h3>
+        <ul>
+         <li><a href="Products_pinoycrumbs.html">What's New</a></li>
+         <li><a href="Products_pinoycrumbs.html">Best Sellers</a></li>
+         <li><a href="Products_pinoycrumbs.html">Bread, Pastries, and more</a></li>
+
+
+       </ul>      
+      </div>
+
+
+      <div class="footer-content">
+        <h3>Company</h3>
+        <ul>
+         <li><a href="AboutUs_pinoycrumbs.html">About us</a></li>
+         <li><a href="Cart_pinoycrumbs.html">Order</a></li>
+         <li><a href="FAQs_pinoycrumbs.html">FAQs</a></li>
+       </ul>
+      </div>
+      <div class="footer-content">
+        <h3>Follow Us</h3>
+        <ul>
+         <li><a href="https://www.facebook.com/people/Pinoy-Crumbs-Official/61582960076586/" target="_blank">@pinoycrumbsFB_official</a></li>
+         <li><a href="https://www.instagram.com/pinoycrumbs_official/" target="_blank">@pinoycrumbsIG_official</a></li>
+         <li><a href="https://www.tiktok.com/@pinoycrumbs_official?_r=1&_t=ZS-91DeAdKcWaW" target="_blank">@itspinoycrumbs</a></li>
+       </ul>
+      </div>
+      </div>
+    </div>
+
+
+   
+
+
+</p>
+
+
+    <hr>
+    <div class="bottom-bar">
+      <p style="color: #2e2501;">© 2025, Pinoy Crumbs. All Rights Reserved. </p>
+    </div>
+
+
+ </footer>
+   
+<!--"I affirm that I have not given or received any unauthorized help on this assignment and that this work is my own".-->
+
+<script src="cart.js"></script>
+</body>
+</html>

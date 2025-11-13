@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="favorite_pinoycrumbs.css">
+    <title>Pinoy Crumbs</title>
+ 
+</head>
+
+<body style="background-color: #F7E7CF;">
+     
+  <div id="rectangle">
+  <span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span><span>ᜉᜒᜈᜓᜌ᜔ ᜃ᜔ᜍᜋ᜔ᜊ᜔ᜐ᜔</span>
+ </div>
+   
+   <nav>
+
+     <div class="pinoycrumbs">
+      <img class="logo" src="https://github.com/AldrinGa/PinoyCrumbs_images/blob/main/pinoy%20crumbslogo.png?raw=true" alt="logo-here" width="200" height="150">
+     </div>
+
+    
+     <input type="checkbox" id="menu-toggle" style="display: none;" >
+     <label for="menu-toggle" class="menu-label">☰</label>
+
+      
+     <div class="pages">
+      <ul class="navmenu">
+        <li><a href="index.html"><b>Home</b></a></li>
+        <li><a href="AboutUs_pinoycrumbs.html"><b>About Us</b></a></li>
+        <li><a href="Products_pinoycrumbs.html"><b>Products</b></a></li>
+        <li><a href="Favorite_pinoycrumbs.html"><b>Favorites</b></a></li>
+        <li><a href="FAQs_pinoycrumbs.html"><b>FAQs</b></a></li>
+        <li><a href="ContactUs_pinoycrumbs.html"><b>Contact Us</b></a></li>
+       </ul>
+     </div>
+
+     <div class="navbtn">
+       <button class="search-button" onclick="showsearch()"><img class="search-icon" src="https://github.com/AldrinGa/PinoyCrumbs_images/blob/main/search%20icon.png?raw=true" width="15px"></button>
+       <button class="profile-button" onclick="location.href='Login_pinoycrumbs.html'"><img class="search-icon" src="https://github.com/AldrinGa/PinoyCrumbs_images/blob/main/user.png?raw=true" width="15px"></button>
+       <button class="bag-button" onclick="location.href='Cart_pinoycrumbs.html'"><img class="search-icon" src="https://github.com/AldrinGa/PinoyCrumbs_images/blob/main/shopping-bag.png?raw=true" width="15px"></button>
+     </div>
+
+     <div class="searchbar">
+      <input type="text" placeholder="Search Here..." id="srchinpt" oninput="searchProducts()">
+     </div>
+
+    </nav>
+
+
+<div class="containerz">
+     <h1>Your Favorites</h1>
+</div> 
+
+<div class="favorites-container"> 
+      <div class="filter-bar"> 
+          <select> 
+              <option>Filter: All</option> 
+              <option>Savory</option> 
+              <option>Sweet</option> 
+          </select> 
+          <select> 
+              <option>Price:</option> 
+              <option>Low to High</option> 
+              <option>High to Low</option> 
+          </select> 
+          <select> 
+              <option>Sort by:</option>
+              <option>Name</option> 
+              <option>Popularity</option> 
+          </select> 
+      </div> 
+</div>
+     
+
+
+<div id="faveItems" class="display"></div>
+
+      
+
+
+
+
+ <footer>
+ 
+ 
+    <div class="container">
+
+
+      <div>
+        <img class="logo2" src="https://github.com/AldrinGa/PinoyCrumbs_images/blob/main/pinoy%20crumbslogo.png?raw=true" alt="logo-here">
+      </div>
+
+    <div class="ftrlnk-container">
+      <div class="footer-content" >
+        <h3>Products</h3>
+        <ul>
+         <li><a href="Products_pinoycrumbs.html">What's New</a></li>
+         <li><a href="Products_pinoycrumbs.html">Best Sellers</a></li>
+         <li><a href="Products_pinoycrumbs.html">Bread, Pastries, and more</a></li>
+
+       </ul>      
+      </div>
+
+
+      <div class="footer-content">
+        <h3>Company</h3>
+        <ul>
+         <li><a href="AboutUs_pinoycrumbs.html">About us</a></li>
+         <li><a href="Cart_pinoycrumbs.html">Order</a></li>
+         <li><a href="FAQs_pinoycrumbs.html">FAQs</a></li>
+       </ul>
+      </div>
+      <div class="footer-content">
+        <h3>Follow Us</h3>
+        <ul>
+         <li><a href="https://www.facebook.com/people/Pinoy-Crumbs-Official/61582960076586/" target="_blank">@pinoycrumbsFB_official</a></li>
+         <li><a href="https://www.instagram.com/pinoycrumbs_official/" target="_blank">@pinoycrumbsIG_official</a></li>
+         <li><a href="https://www.tiktok.com/@pinoycrumbs_official?_r=1&_t=ZS-91DeAdKcWaW" target="_blank">@itspinoycrumbs</a></li>
+       </ul>
+      </div>
+      </div>
+    </div>
+
+
+   
+
+
+</p>
+
+
+    <hr>
+    <div class="bottom-bar">
+      <p style="color: #2e2501;">© 2025, Pinoy Crumbs. All Rights Reserved. </p>
+    </div>
+
+
+  </footer>
+   
+<!--"I affirm that I have not given or received any unauthorized help on this assignment and that this work is my own".-->
+
+<script src="favorite.js"></script>
+</body>
+</html>
